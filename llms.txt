@@ -1,7 +1,4 @@
-# Valley Christian Startup Incubator
+# valley-big-mac
 
-- [Start](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/AGENTS.md)
-- [Hosting on ssh valley-big-mac](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/docs/hosting.md)
 - [Automatic deployments](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/skills/big-mac-autodeploy/SKILL.md)
-- [Operations](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/docs/operations.md)
-- [Moonshine deployment](https://github.com/Valley-Christian-Startup-Incubator/moonshine/blob/main/docs/zero-downtime-deployment.md)
+- [Services](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/services.md)

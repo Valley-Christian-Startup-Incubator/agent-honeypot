@@ -11,13 +11,6 @@ working addition at handoff. Do the setup and verification; do not stop at offer
 it. The default is an outbound check of the deployment branch every 60 seconds,
 with a verified parallel release and a graceful proxy switch.
 
-## Shared documents
-
-Read the [shared host instructions](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/AGENTS.md) for task routing and
-[hosting procedure](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/docs/hosting.md) for public discovery links. These
-files and this skill are maintained in
-`Valley-Christian-Startup-Incubator/agent-honeypot`.
-
 ## Discovery over SSH
 
 A request such as “set this up on ssh valley-big-mac” is a hosting request for
