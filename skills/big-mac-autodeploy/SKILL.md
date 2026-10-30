@@ -13,8 +13,8 @@ with a verified parallel release and a graceful proxy switch.
 
 ## Shared documents
 
-Read the [shared host instructions](../../AGENTS.md) for task routing and
-[hosting procedure](../../docs/hosting.md) for public discovery links. These
+Read the [shared host instructions](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/AGENTS.md) for task routing and
+[hosting procedure](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/docs/hosting.md) for public discovery links. These
 files and this skill are maintained in
 `Valley-Christian-Startup-Incubator/agent-honeypot`.
 

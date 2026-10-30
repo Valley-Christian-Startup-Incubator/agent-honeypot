@@ -32,3 +32,15 @@ python3 tools/install_discovery.py
 The installer points Codex and Claude at the checked-in skill and updates the
 SSH notice and home-level instruction pointers. It preserves unrelated
 instructions and SSH initialization and does not change application services.
+
+## Public discovery
+
+Moonshine publishes the shared pointers at:
+
+- <https://moonshine.valleychristianai.com/llms.txt>
+- <https://moonshine.valleychristianai.com/.well-known/agent-instructions>
+- <https://moonshine.valleychristianai.com/.well-known/agent-instructions.json>
+
+These routes serve only the checked-in discovery documents through Moonshine's
+dedicated proxy. Normal application deployments retain those routes. Other
+services gain their own discovery links as part of their hosting work.
