@@ -1,0 +1,4 @@
+interface:
+  display_name: "valley-big-mac automatic deploys"
+  short_description: "Automatic deploys for Incubator-hosted services"
+  default_prompt: "Use $big-mac-autodeploy to host this Incubator service on ssh valley-big-mac with verified automatic deploys and no downtime."

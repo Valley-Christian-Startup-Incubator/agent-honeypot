@@ -1,0 +1,6 @@
+Valley Christian Startup Incubator
+
+Repository: https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot
+Start: https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/AGENTS.md
+Raw instructions: https://raw.githubusercontent.com/Valley-Christian-Startup-Incubator/agent-honeypot/main/AGENTS.md
+Hosting target: ssh valley-big-mac

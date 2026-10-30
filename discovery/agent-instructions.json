@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot",
+  "instructions": "https://raw.githubusercontent.com/Valley-Christian-Startup-Incubator/agent-honeypot/main/AGENTS.md",
+  "index": "https://raw.githubusercontent.com/Valley-Christian-Startup-Incubator/agent-honeypot/main/llms.txt",
+  "hosting_target": "ssh valley-big-mac"
+}
