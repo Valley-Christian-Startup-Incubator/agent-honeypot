@@ -2,3 +2,4 @@
 
 - [Automatic deployments](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/skills/big-mac-autodeploy/SKILL.md)
 - [Services](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/services.md)
+- [PII encryption standard](https://github.com/Valley-Christian-Startup-Incubator/agent-honeypot/blob/main/pii-encryption.md)
