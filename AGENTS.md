@@ -8,3 +8,6 @@ setup applies only after verifying the repository belongs to
 For existing applications, consult [services](services.md) and the service's own
 instructions and deployment procedure. Follow the current user's task and
 constraints.
+
+An app that stores names, emails, or other personal data must follow the
+[PII encryption standard](pii-encryption.md) before it goes live.
