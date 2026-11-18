@@ -11,3 +11,6 @@ constraints.
 
 An app that stores names, emails, or other personal data must follow the
 [PII encryption standard](pii-encryption.md) before it goes live.
+
+To change an existing app, follow the
+[contribution workflow](CONTRIBUTING.md): branch, pull request, review, merge.

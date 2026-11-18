@@ -17,6 +17,8 @@ points them to the instructions relevant to their task.
 - [Services](services.md): links to known services and their own deployment docs.
 - [PII encryption standard](pii-encryption.md): required encryption for student
   names and emails, plus the apps already encrypted.
+- [Contributing](CONTRIBUTING.md): branch, pull request, review on the shared
+  test site, and merge for every Studio-hosted app.
 
 The collection is intentionally small. Service-specific operating procedures
 stay in each service's repository.

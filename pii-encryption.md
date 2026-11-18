@@ -10,7 +10,8 @@ its data after launch.
 
 ## Apps already encrypted
 
-Peer Tutor, BusTrackr, and 273Kelvin already encrypt their data. Each app has
+273Kelvin encrypts names and emails. BusTrackr encrypts emails. Peer Tutor
+encrypts names; its emails are not yet encrypted (planned). Each app has
 its own keys, stored on the Studio and used there for decryption. Do not copy,
 print, or reuse them.
 
@@ -19,6 +20,22 @@ checkout lists where each app keeps its keys. If that file is missing, find the
 app's environment file and key names yourself. List only the variable names,
 never the values. These apps named their keys before the `PII_KEY` name used
 below existed. Keep the names they already use.
+
+## Student logins
+
+Student apps must not ask students to type a name, email, or password to
+create an account. Preferred sign-in is the student's school Google
+account (`@warriorlife.net`), with the Workspace `hd` claim checked on
+the server for every sign-in.
+
+Collecting the school email from Google is fine. Any email you store must
+be encrypted at rest as `e1:` and looked up with an HMAC `email_h`
+fingerprint, never stored or searched as plaintext. Do not invent
+app-made passwords. Do not collect birthdates, phone numbers, or student
+IDs for login or signup.
+
+Parent or other outside accounts, when an app needs them, must follow the
+same encryption rules for every name and email they store.
 
 ## Rules
 
@@ -113,3 +130,4 @@ Both versions produce the same `e1:` format, so a Python app and a Node app can 
 - [ ] Every PII write uses `seal()`; lookups use `email_h`
 - [ ] Test account shows `e1:` values in the database
 - [ ] No PII in logs, error messages, or client-side code
+- [ ] Students sign in with @warriorlife.net Google accounts (server checks `hd`); no app-made name/email/password signup; stored emails are `e1:` and lookups use `email_h`
